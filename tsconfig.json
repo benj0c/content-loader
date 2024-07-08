@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@ngneat/content-loader": ["projects/ngneat/content-loader/src/public_api.ts"]
+      "@referrizer/content-loader": ["projects/referrizer/content-loader/src/public_api.ts"]
     },
     "sourceMap": true,
     "declaration": false,

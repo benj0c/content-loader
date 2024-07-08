@@ -109,36 +109,36 @@
         }
       }
     },
-    "@ngneat/content-loader": {
-      "root": "projects/ngneat/content-loader",
-      "sourceRoot": "projects/ngneat/content-loader/src",
+    "@referrizer/content-loader": {
+      "root": "projects/referrizer/content-loader",
+      "sourceRoot": "projects/referrizer/content-loader/src",
       "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ngneat/content-loader/tsconfig.lib.json",
-            "project": "projects/ngneat/content-loader/ng-package.json"
+            "tsConfig": "projects/referrizer/content-loader/tsconfig.lib.json",
+            "project": "projects/referrizer/content-loader/ng-package.json"
           },
           "configurations": {
             "production": {
-              "project": "projects/ngneat/content-loader/ng-package.prod.json"
+              "project": "projects/referrizer/content-loader/ng-package.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngneat/content-loader/src/test.ts",
-            "tsConfig": "projects/ngneat/content-loader/tsconfig.spec.json",
-            "karmaConfig": "projects/ngneat/content-loader/karma.conf.js"
+            "main": "projects/referrizer/content-loader/src/test.ts",
+            "tsConfig": "projects/referrizer/content-loader/tsconfig.spec.json",
+            "karmaConfig": "projects/referrizer/content-loader/karma.conf.js"
           }
         }
       }
     }
   },
-  "defaultProject": "@ngneat/content-loader",
+  "defaultProject": "@referrizer/content-loader",
   "cli": {
     "analytics": false
   }

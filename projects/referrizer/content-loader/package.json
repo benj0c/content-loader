@@ -1,11 +1,11 @@
 {
-  "name": "@ngneat/content-loader",
+  "name": "@referrizer/content-loader",
   "version": "7.0.0",
   "license": "MIT",
   "description": "SVG component to create placeholder loading, like Facebook cards loading",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngneat/content-loader"
+    "url": "https://github.com/referrizer/content-loader"
   },
   "publishConfig": {
     "access": "public"
@@ -20,7 +20,7 @@
     "@angular/core": ">= 13.0.0"
   },
   "author": {
-    "name": "Netanel Basal",
-    "url": "https://netbasal.com"
+    "name": "Referrizer",
+    "url": "https://github.com/referrizer"
   }
 }

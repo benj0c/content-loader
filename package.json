@@ -11,7 +11,7 @@
     "build:integration:ssr": "ng run integration:server --configuration production",
     "serve:integration": "ng s --project integration",
     "serve:integration:ssr": "node dist/integration/server/main",
-    "release": "cd projects/ngneat/content-loader && standard-version --infile ../../../CHANGELOG.md",
+    "release": "cd projects/referrizer/content-loader && standard-version --infile ../../../CHANGELOG.md",
     "commit": "git-cz",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors init",

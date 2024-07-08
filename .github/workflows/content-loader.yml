@@ -1,4 +1,4 @@
-name: '@ngneat/content-loader'
+name: '@referrizer/content-loader'
 
 on:
   push:

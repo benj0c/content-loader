@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { ContentLoaderModule } from '@ngneat/content-loader';
+import { ContentLoaderModule } from '@referrizer/content-loader';
 
 import { AppComponent } from './app.component';
 
