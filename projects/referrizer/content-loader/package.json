@@ -1,6 +1,6 @@
 {
   "name": "@referrizer/content-loader",
-  "version": "7.0.0",
+  "version": "13.0.0",
   "license": "MIT",
   "description": "SVG component to create placeholder loading, like Facebook cards loading",
   "repository": {
